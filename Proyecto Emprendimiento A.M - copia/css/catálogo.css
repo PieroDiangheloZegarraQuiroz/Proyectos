@@ -1,0 +1,352 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font: bold;
+}
+
+.h1_nav{
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+    color:white
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(11, 155, 42);
+}
+
+.bg_header{
+    background-color: rgb(27, 27, 27);
+}
+
+.container{
+    display: flex;
+}
+
+.bg_body{
+    background-image: url(../img/cesped.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-attachment: fixed;
+    display: block;
+    background-size: cover;
+    background-color: rgb(60, 60, 60);
+    background-blend-mode: soft-light;
+}
+
+.t_gallinas{
+    background-color: #4b4242;
+    position: relative;
+    margin: 0 auto;
+    width: 55%;
+    height: 65px;
+    top: 68px;
+    clip-path: polygon(0 0, 100% 0, 92% 51%, 100% 100%, 0 100%, 8% 50%);
+}
+
+.t_gallos{
+    background-color: #4b4242;
+    position: relative;
+    margin: 0 auto;
+    width: 55%;
+    height: 65px;
+    top: 955px;
+    clip-path: polygon(0 0, 100% 0, 92% 51%, 100% 100%, 0 100%, 8% 50%);
+}
+
+.h1_t1{
+    text-align: center;
+    top: 8px;
+    position: relative;
+    font-size: 45px;
+}
+
+.h1_t2{
+    text-align: center;
+    top: 8px;
+    position: relative;
+    font-size: 45px;
+}
+
+.card1{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 90px black;
+    overflow: hidden;
+    position: absolute;
+    top: 245px;
+    left: 30px;
+    border: 1px solid white;
+}
+.info1{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 295px;
+    left: 390px;
+    border: 1px solid white;
+}
+
+.card2{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 245px;
+    left: 665px;
+    border: 1px solid white;
+}
+
+.info2{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 295px;
+    left: 1025px;
+    border: 1px solid white;
+}
+
+.card3{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 650px;
+    left: 30px;
+    border: 1px solid white;
+}
+
+.info3{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 700px;
+    left: 390px;
+    border: 1px solid white;
+}
+
+.card4{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 650px;
+    left: 665px;
+    border: 1px solid white;
+}
+
+.info4{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 700px;
+    left: 1025px;
+    border: 1px solid white;
+}
+
+.card5{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 1215px;
+    left: 30px;
+    border: 1px solid white;
+}
+
+.info5{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 1265px;
+    left: 390px;
+    border: 1px solid white;
+}
+
+.card6{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 1215px;
+    left: 670px;
+    border: 1px solid white;
+}
+
+.info6{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 1265px;
+    left: 1030px;
+    border: 1px solid white;
+}
+
+.card7{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 1610px;
+    left: 30px;
+    border: 1px solid white;
+}
+
+.info7{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 1660px;
+    left: 390px;
+    border: 1px solid white;
+}
+
+.card8{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: absolute;
+    top: 1610px;
+    left: 670px;
+    border: 1px solid white;
+}
+
+.info8{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 5px 5px 20px black;
+    top: 1660px;
+    left: 1030px;
+    border: 1px solid white;
+}
+
+/*
+
+
+.card8{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;
+    top: -1360px;
+    left: 660px;
+    border: 1px solid white;
+}
+
+.info8{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 300px;
+    position: relative;
+    box-shadow: 5px 5px 20px black;
+    top: -1310px;
+    left: 620px;
+    border: 1px solid white;
+}
+*/
+
+/*sin body revisar video*/
+
+img{
+    height: 300px;
+    width: 350px;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    border-radius: 3px;
+}
+
+.intro{
+    height: 100px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 240px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: .5s;
+}
+
+h1{
+    margin: 10px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    
+}
+
+.p_catalogo{
+    margin-top: 14px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.boton{
+    display: block;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(54, 103, 252);
+    border-radius: 10px;
+    padding: 10px 17px;
+    margin: 15px 80px;
+    color: white;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid rgb(172, 190, 243);
+    color: rgb(253, 253, 253);
+}

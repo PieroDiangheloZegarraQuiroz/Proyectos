@@ -1,0 +1,63 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font: bold;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+    color:white
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(11, 155, 42);
+}
+
+.bg_header{
+    background-color: rgb(27, 27, 27);
+}
+
+.img_bg{
+    background-image: url(../img/silkies_bg.jpeg);
+    background-position:500px 80px;
+    background-repeat: no-repeat;
+    background-size: 866px 550px;
+    
+}
+
+.div_bg{
+    background-color: black;
+    width: 500px;
+    height: 508px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.h1_body{
+    color: white;
+    left: 90px;
+}
+
+.img_contact{
+    width: 80px;
+    border-radius: 9px;
+}
